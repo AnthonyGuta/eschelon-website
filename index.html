@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="We craft luxury websites and digital experiences for premium brands. From concept to launch your vision realized.">
+    <title>Eschelon - Luxury Web Design & Digital Experiences</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <!--Header-->
+        <header class="site-header">
+            <div class="header-inner">
+                <div class="logo">Eschelon</div>
+
+                <nav class="nav">
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- HERO -->
+        <section class="hero-section">
+            <div class="video-wrapper">
+                <div class="video-inner">
+                    <video width="100%" height="100%" muted loop autoplay playsinline preload="metadata" poster="assets/video-poster.jpg">
+                        <source src="assets/luxuryvideo.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="h1-hero-section"><h1>From Idea To Iconic</h1></div>
+                <div class="divider"></div>
+                <div class="bottom">
+                    <img width="100%" height="100%" src="assets/arrow-down.png" alt="scroll down" />
+                    <div class="subtext">We design and develop luxury websites for brands that demand clarity, elegance, and performance.</div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <section class="idea-section">
+        <div class="article__img">
+            <img width="100%" height="100%" src="assets/idea sketch.png"
+                 alt="Website Idea Sketch"
+                 class="idea-image" />
+        </div>
+
+        <div class="scroll-main">
+            <div class="h1-idea-section">
+                <h2>Everything begins with an idea.</h2>
+            </div>
+            <div class=" subtext-idea">
+                Everything begins with an idea.
+                Rough sketches. Raw concepts. Direction.
+            </div>
+        </div>
+    </section>
+
+    <section class="design-section">
+        <div class="h2-design">
+            <h2>We bring ideas to life with precision and creativity.</h2>
+        </div>
+        <div class="img-design">
+            <img width="100%" height="100%" src="assets/ui.mockup.jpg" alt="Luxury website design with dark minimal interface" />
+        </div>
+    </section>
+
+    <section class="launch-section">
+        <div class="h2-launch">
+            <h2>
+                Turning ideas into refined digital experiences.
+            </h2>
+        </div>
+        <div class="p-launch">
+            <p>
+                We transform ideas into refined digital products, built to perform and designed to last.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="impact-section">
+        <div class="container">
+            <h4 class="section-label">RESULTS</h4>
+            <h2>Luxury that performs.Design that converts</h2>
+            <p class="results-text">
+                We don’t just create beautiful websites we create digital experiences that build trust,
+                elevate brands, and drive real growth. Every project is crafted to leave a lasting impression
+                and deliver measurable results.
+            </p>
+        </div>
+
+        <div class="stack-cards">
+            <div class="stack-cards__item">
+                <div class="inner">
+                    <h3>+300% Engagement</h3>
+                    <p>Higher user intercation and retention</p>
+                    <div class="counter">3/3</div>
+                </div>
+                <div class="shadow"></div>
+            </div>
+
+            <div class="stack-cards__item">
+                <div class="inner">
+                    <h3>Premium Branding</h3>
+                    <p>Positioned for high-end clientele</p>
+                    <div class="counter">2/3</div>
+                </div>
+                <div class="shadow"></div>
+            </div>
+
+            <div class="stack-cards__item">
+                <div class="inner">
+                    <h3>Conversion Focused</h3>
+                    <p>Design to turn visitors into clients</p>
+                    <div class="counter">1/3</div>
+                </div>
+                <div class="shadow"></div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="section-services" id="services">
+        <div class="container-2">
+            <h4 class="service-label">OUR SERVICES</h4>
+            <h2 class="service-h2">Crafted digital solutions for premium brands</h2>
+
+            <ul class="services-list">
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>UI / UX Design</li>
+                <li>E-Commerce Solutions</li>
+                <li>Branding</li>
+                <li>Marketing Support</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section cta">
+        <h2>Let's build something exceptional.</h2>
+        <form action="send-email.php" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Project intent" required></textarea>
+            <button type="submit"><span>Begin the conversation</span></button>
+        </form>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
