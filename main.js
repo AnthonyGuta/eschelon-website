@@ -216,4 +216,30 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.warn('Stack cards or ScrollTrigger not available');
     }
+
+});
+
+// ========== CODE PROTECTION ==========
+// Disable right-click
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+    return false;
+});
+
+// Disable common keyboard shortcuts for viewing source
+document.addEventListener('keydown', function (e) {
+    // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+    if (e.keyCode == 123 || // F12
+        (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Ctrl+Shift+I
+        (e.ctrlKey && e.shiftKey && e.keyCode == 74) || // Ctrl+Shift+J
+        (e.ctrlKey && e.keyCode == 85)) { // Ctrl+U
+        e.preventDefault();
+        return false;
+    }
+});
+
+// Disable text selection
+document.addEventListener('selectstart', function (e) {
+    e.preventDefault();
+    return false;
 });
